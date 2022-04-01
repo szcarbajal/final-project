@@ -27,13 +27,6 @@ nav{
     top: 0px;
 }
 
-/*
-.navposition {
-    position: sticky;
-    top: 0;
-}
-*/
-
 ul li{
     display: inline-block;
 }
@@ -53,18 +46,6 @@ a {
     bottom: 0;
     width: 100%;
 }
-
-/*
-section, article, aside {
-    border:rgb(255, 228, 105) solid;
-}
-*/
-
-/*
-.floatleft {
-    float: left;
-}
-*/
 
 #leftcolumn {
     float: left;
@@ -86,8 +67,8 @@ section, article, aside {
 }
 
 .lrmargin {
-    margin-left: 55px;
-    margin-right: 55px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 a:link {
@@ -100,38 +81,20 @@ a:visited {
 
 a:hover {
     color: rgb(255, 228, 105);
+    /*
     background-color:darkblue;
     border: solid .25px;
+    */
 }
 
 a:active {
     color:blue;
 }
 
-/*
-.column {
-    float: left;
-    width: 50%;
-  }
-  
-
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-*/
-
 .boxshadow {
     border: none;
     box-shadow: 5px 10px 18px rgb(0, 119, 0);
 }
-
-/*
-.nopointevents {
-    pointer-events: none;
-}
-*/
 
 #logo {
     height: 62px;
@@ -184,3 +147,14 @@ input[type=text], select, textarea {
     background-color: black        ;
     padding: 20px;
   }
+
+.icon {
+      width: 20px;
+      height: 20px;
+  }
+
+/*
+.icon:hover {
+      border: none;
+  }
+*/
